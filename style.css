@@ -1,0 +1,52 @@
+body{
+    font-family: 'Anton', sans-serif;
+    background-color:black;
+    color:white;
+}
+
+.container{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    text-align:center;
+    justify-content: center;
+    align-items:center;
+}
+
+.container::before{
+    background:url('pexels-photo-315938.jpeg')no-repeat top center/cover;
+    content: "";
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    z-index: -1;
+    opacity:0.9;
+}
+
+img{
+    width:50px;
+    filter: invert();
+}
+h1{
+    text-align:center;
+    font-size:2rem;
+}
+#head{
+    color:red;
+
+}
+
+#livedate{
+    text-shadow:2px 2px 7px black;
+    color:red;
+    font-size:1.5rem;
+    display:inline-block;
+}
+#livetime{
+    text-shadow:2px 2px 7px black;
+    font-size:5rem;
+    display:block;
+}
+
